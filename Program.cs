@@ -9,7 +9,12 @@
                 return x + y;
             }
 
-            Console.WriteLine($"La suma del primer y último término del ID es: {Add(2,1)}");
+            int Multiply(int x, int y)
+            {
+                return x*y
+            }
+
+            Console.WriteLine($"La multiplicaciono del primer y último término del ID es: {Multiply(2,1)}");
         }
     }
 }
