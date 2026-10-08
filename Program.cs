@@ -16,7 +16,8 @@
             {
                 if (y == 0)
             {
-                Console.WriteLine("El divisor no puede ser cero.");
+                Console.WriteLine($"No se puede dividir {x} entre {y}.");
+                return 0;
             }
             return x / y;
         }
