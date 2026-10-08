@@ -21,7 +21,12 @@
       
         public static double Divide(int x, int y)
             {
-                return x / y;
+                if (y == 0)
+            {
+                Console.WriteLine($"No se puede dividir {x} entre {y}.");
+                return 0;
+            }
+            return x / y;
         }
 
         
