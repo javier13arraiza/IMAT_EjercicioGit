@@ -14,7 +14,11 @@
 
         public static int Divide(int x, int y)
             {
-                return x / y;
+                if (y == 0)
+            {
+                Console.WriteLine("El divisor no puede ser cero.");
+            }
+            return x / y;
         }
 
         
