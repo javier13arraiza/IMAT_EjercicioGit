@@ -19,7 +19,7 @@
         }
       
       
-        public static int Divide(int x, int y)
+        public static double Divide(int x, int y)
             {
                 return x / y;
         }
